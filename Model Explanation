@@ -1,0 +1,15 @@
+1. CNN + Channel Attention
+
+In the CNN + Channel Attention architecture, convolutional neural networks are enhanced using channel-wise attention mechanisms such as Squeeze-and-Excitation (SE) blocks. The CNN extracts hierarchical spatial features from input images, while the channel attention module adaptively recalibrates feature responses by emphasizing informative channels and suppressing less relevant ones. This mechanism improves discriminative feature learning, especially for fine-grained visual patterns such as texture variations and color irregularities commonly observed in plant disease symptoms.
+
+2. CNN + Transformer Attention
+
+The CNN + Transformer Attention architecture combines the strong local feature extraction capability of CNNs with the global contextual modeling power of transformer-based self-attention. CNN layers first extract spatial feature maps, which are then converted into token sequences and passed through transformer encoder blocks. The self-attention mechanism captures long-range dependencies and global relationships across spatial regions, enabling the model to better understand complex disease patterns that extend across the leaf surface.
+
+3. CNN + Concatenate + Attention (Channel Attention)
+
+In the CNN + Concatenate + Channel Attention architecture, multiple CNN backbones are employed to extract complementary feature representations from the input image. The output feature maps from each backbone are concatenated to form a unified feature vector, followed by channel attention to adaptively reweight the combined features. This strategy leverages the diversity of multiple CNN architectures while selectively emphasizing the most relevant channels, leading to improved robustness and classification performance.
+
+4. CNN + Concatenate + Attention (Transformer Attention)
+
+The CNN + Concatenate + Transformer Attention architecture integrates multiple CNN feature extractors with transformer-based self-attention mechanisms. Feature maps from different CNN backbones are concatenated and reshaped into token sequences, which are then processed by transformer encoder layers. The transformer attention models global dependencies across the fused feature space, enabling effective interaction between complementary features extracted by different CNNs. This hybrid design enhances both local feature discrimination and global contextual understanding, making it particularly effective for complex multi-disease and multi-crop classification tasks.
