@@ -51,6 +51,7 @@ The dataset includes both healthy and diseased leaf categories, allowing models 
 
 ### 1. Cassava
 ![Cassava Disease and Healthy Sample Images](C1.png)
+
 Cassava classes included in the dataset represent major foliar diseases commonly affecting cassava production.
 
 #### Disease Classes
@@ -72,6 +73,7 @@ Cassava classes included in the dataset represent major foliar diseases commonly
 
 ### 2. Cashew
 ![Cashew Disease and Healthy Sample Images](C2.png)
+
 Cashew classes represent major fungal and pest-related diseases affecting leaf health.
 
 #### Disease Classes
@@ -93,6 +95,7 @@ Cashew classes represent major fungal and pest-related diseases affecting leaf h
 
 ### 3. Maize
 ![Maize Disease and Healthy Sample Images](M.png)
+
 Maize classes include important foliar diseases that affect cereal crop productivity.
 
 #### Disease Classes
@@ -115,6 +118,7 @@ Maize classes include important foliar diseases that affect cereal crop producti
 
 ### 4. Tomato
 ![Tomato Disease and Healthy Sample Images](T.png)
+
 Tomato contributes the largest number of disease classes in the dataset.
 
 #### Disease Classes
