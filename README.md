@@ -381,7 +381,7 @@ model = load_model('saved_model/model.h5')
 
 If you use this code, please cite:
 
-Author Name, "Lightweight Attention-Enhanced Convolutional Learning Framework for Multi-Class Plant Disease Classification Across Diverse Crops", submitted to Pattern Analysis and Applications.
+Anand Kumar Jain and Neeta Nain, "Lightweight Attention-Enhanced Convolutional Learning Framework for Multi-Class Plant Disease Classification Across Diverse Crops", submitted to Pattern Analysis and Applications.
 
 ---
 
