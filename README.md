@@ -50,10 +50,9 @@ dataset/
 │ ├── class_1/
 │ ├── class_2/
 │ ├── ...
-├── test/
-│ ├── class_1/
-│ ├── class_2/
-│ ├── ...
+### CCMT Dataset Download Link 
+https://data.mendeley.com/datasets/bwh3zbpkpv/1
+
 
 ### Image Settings
 
