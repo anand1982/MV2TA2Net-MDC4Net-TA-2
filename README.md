@@ -50,7 +50,7 @@ The dataset includes both healthy and diseased leaf categories, allowing models 
 ## Crop-wise Disease Classes
 
 ### 1. Cassava
-
+![Cassava Disease and Healthy Sample Images](C1.png)
 Cassava classes included in the dataset represent major foliar diseases commonly affecting cassava production.
 
 #### Disease Classes
@@ -71,7 +71,7 @@ Cassava classes included in the dataset represent major foliar diseases commonly
 ---
 
 ### 2. Cashew
-
+![Cashew Disease and Healthy Sample Images](C2.png)
 Cashew classes represent major fungal and pest-related diseases affecting leaf health.
 
 #### Disease Classes
@@ -92,15 +92,18 @@ Cashew classes represent major fungal and pest-related diseases affecting leaf h
 ---
 
 ### 3. Maize
-
+![Maize Disease and Healthy Sample Images](M.png)
 Maize classes include important foliar diseases that affect cereal crop productivity.
 
 #### Disease Classes
 
-* Common Rust
-* Gray Leaf Spot
-* Northern Leaf Blight
+* Fall Armyworm
+* Grasshoper
+* Leaf Spot
+* Leaf Blight
 * Healthy Maize
+* Leaf Beetle
+* Streak Virus
 
 #### Disease Characteristics
 
@@ -111,33 +114,23 @@ Maize classes include important foliar diseases that affect cereal crop producti
 ---
 
 ### 4. Tomato
-
+![Tomato Disease and Healthy Sample Images](T.png)
 Tomato contributes the largest number of disease classes in the dataset.
 
 #### Disease Classes
 
-* Bacterial Spot
-* Early Blight
 * Late Blight
-* Leaf Mold
 * Septoria Leaf Spot
-* Spider Mite Damage
-* Target Spot
-* Yellow Leaf Curl Virus
-* Mosaic Virus
+* Verticulium Wilt
+* Leaf Curl 
 * Healthy Tomato
 
 #### Disease Characteristics
 
-* Bacterial Spot forms small dark lesions.
-* Early Blight presents concentric ring patterns.
 * Late Blight causes water-soaked irregular lesions.
-* Leaf Mold produces yellow patches and fungal growth.
+* Verticillium Wilt is a fungal disease that causes leaf yellowing, wilting, and drying by blocking water.
 * Septoria Leaf Spot creates small circular necrotic spots.
-* Spider Mite damage appears as chlorotic stippling.
-* Target Spot forms concentric circular lesions.
 * Yellow Leaf Curl Virus causes upward curling and yellowing.
-* Mosaic Virus shows green-yellow mosaic patterns.
 
 ---
 
