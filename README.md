@@ -39,6 +39,154 @@ The dataset used in this study contains leaf images from four crop species:
 
 Each crop contains multiple healthy and diseased classes.
 
+## Overview
+
+The CCMT dataset is a multi-crop plant disease image dataset developed for crop disease classification and deep learning-based agricultural research. It contains leaf images collected from four major crop species: cassava, cashew, maize, and tomato. The dataset is designed to support multi-class and multi-crop disease recognition tasks and is widely used for evaluating transfer learning models, lightweight convolutional neural networks, hybrid deep learning frameworks, and attention-based classification methods.
+
+The dataset includes both healthy and diseased leaf categories, allowing models to learn disease discrimination across visually similar classes and diverse crop species.
+
+---
+
+## Crop-wise Disease Classes
+
+### 1. Cassava
+
+Cassava classes included in the dataset represent major foliar diseases commonly affecting cassava production.
+
+#### Disease Classes
+
+* Cassava Bacterial Blight (CBB)
+* Cassava Brown Streak Disease (CBSD)
+* Cassava Green Mottle (CGM)
+* Cassava Mosaic Disease (CMD)
+* Healthy Cassava
+
+#### Disease Characteristics
+
+* Cassava Bacterial Blight shows angular brown lesions and tissue necrosis.
+* Cassava Brown Streak Disease presents chlorotic yellow vein-associated patterns.
+* Cassava Green Mottle exhibits irregular green-yellow mottling.
+* Cassava Mosaic Disease shows mosaic chlorosis and leaf deformation.
+
+---
+
+### 2. Cashew
+
+Cashew classes represent major fungal and pest-related diseases affecting leaf health.
+
+#### Disease Classes
+
+* Anthracnose
+* Gummosis
+* Leaf Miner
+* Red Rust
+* Healthy Cashew
+
+#### Disease Characteristics
+
+* Anthracnose causes dark necrotic lesions with irregular boundaries.
+* Gummosis affects tissue integrity and leaf health.
+* Leaf Miner creates visible internal feeding tunnels.
+* Red Rust appears as orange-red fungal patches on the leaf surface.
+
+---
+
+### 3. Maize
+
+Maize classes include important foliar diseases that affect cereal crop productivity.
+
+#### Disease Classes
+
+* Common Rust
+* Gray Leaf Spot
+* Northern Leaf Blight
+* Healthy Maize
+
+#### Disease Characteristics
+
+* Common Rust produces reddish-brown pustules.
+* Gray Leaf Spot forms elongated rectangular lesions.
+* Northern Leaf Blight creates long cigar-shaped necrotic lesions.
+
+---
+
+### 4. Tomato
+
+Tomato contributes the largest number of disease classes in the dataset.
+
+#### Disease Classes
+
+* Bacterial Spot
+* Early Blight
+* Late Blight
+* Leaf Mold
+* Septoria Leaf Spot
+* Spider Mite Damage
+* Target Spot
+* Yellow Leaf Curl Virus
+* Mosaic Virus
+* Healthy Tomato
+
+#### Disease Characteristics
+
+* Bacterial Spot forms small dark lesions.
+* Early Blight presents concentric ring patterns.
+* Late Blight causes water-soaked irregular lesions.
+* Leaf Mold produces yellow patches and fungal growth.
+* Septoria Leaf Spot creates small circular necrotic spots.
+* Spider Mite damage appears as chlorotic stippling.
+* Target Spot forms concentric circular lesions.
+* Yellow Leaf Curl Virus causes upward curling and yellowing.
+* Mosaic Virus shows green-yellow mosaic patterns.
+
+---
+
+## Dataset Characteristics
+
+* Multi-crop disease classification dataset
+* Healthy and diseased leaf categories
+* Suitable for transfer learning and attention-based deep learning models
+* Supports lightweight CNN benchmarking
+* Useful for multi-class agricultural image classification
+
+---
+
+## Research Applications
+
+The dataset is suitable for:
+
+* Convolutional Neural Networks (CNN)
+* Transfer Learning Models
+* Lightweight Mobile Architectures
+* Hybrid Attention Networks
+* Transformer-assisted Disease Classification
+* Multi-crop Generalization Studies
+
+---
+
+## Recommended Experimental Usage
+
+Typical experimental split:
+
+* Training: 70% or 80%
+* Validation: 10% or 15%
+* Testing: 10% or 15%
+
+Input image size commonly used:
+
+* 224 × 224 pixels
+
+Common preprocessing steps:
+
+* Resizing
+* Normalization
+* Data augmentation
+* Noise robustness testing
+
+---
+
+
+
 ### Dataset Directory Structure
 
 dataset/
