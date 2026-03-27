@@ -29,7 +29,7 @@ while maintaining low computational complexity.
 ---
 
 ## Dataset Description
-
+![CCMT Dataset Sample Images](L-D.png)
 The dataset used in this study contains leaf images from four crop species:
 
 * cassava
