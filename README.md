@@ -93,6 +93,8 @@ Clone repository:
 
 git clone https://github.com/anand1982/MV2TA2Net-MDC4Net-TA-2.git
 
+(https://github.com/anand1982/MV2TA2Net-MDC4Net-TA-2.git)
+
 Move to project folder:
 
 cd yourrepository
