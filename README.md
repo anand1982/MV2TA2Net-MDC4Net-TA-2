@@ -8,12 +8,15 @@ This repository contains the complete implementation for the research paper:
 
 The proposed framework integrates:
 
-* **MobileNetV2+Channel Attention**
-* **MobileNetV2+Transformer Attention 1**
-* **MobileNetV2+Transformer Attention 2**
-* **(Mob+Den)+Channel Attention**
-* **(Mob+Den)+Transformer Attention 1**
-* **(Mob+Den)+Transformer Attention 2**
+* **MobileNetV2+Channel Attention (MV2CA2Net)**
+* **MobileNetV2+Transformer Attention 1 (MV2TA1Net)**
+* **MobileNetV2+Transformer Attention 2 (MV2TA2Net)**
+* **DenseNet121+Channel Attention (D121CA2Net)**
+* **DenseNet121+Transformer Attention 1 (D121TA1Net)**
+* **DenseNet121+Transformer Attention 2 (D121TA2Net)**
+* **(Mob+Den)+Channel Attention (MDC4Net+CA)**
+* **(Mob+Den)+Transformer Attention 1 (MDC4Net+TA-1)**
+* **(Mob+Den)+Transformer Attention 2 (MDC4Net+TA-2)**
 * **Channel attention module**
 
 for efficient and robust multi-class plant disease classification under resource-constrained agricultural environments.
@@ -381,7 +384,11 @@ model = load_model('saved_model/model.h5')
 
 If you use this code, please cite:
 
-Anand Kumar Jain and Neeta Nain, "Lightweight Attention-Enhanced Convolutional Learning Framework for Multi-Class Plant Disease Classification Across Diverse Crops", submitted to Pattern Analysis and Applications.
+Jain, Anand Kumar, and Neeta Nain, "Lightweight Attention-Enhanced Convolutional Learning Framework for Multi-Class Plant Disease Classification Across Diverse Crops", submitted to Pattern Analysis and Applications.
+
+## Others Related paper Citation
+
+Jain, Anand Kumar, and Neeta Nain. "Mdtacnet: Mobilenet-densenet and transformer attention hybrid network for multi-crop and multi-disease classification." International Conference on Computer Analysis of Images and Patterns. Cham: Springer Nature Switzerland, 2025.
 
 ---
 
